@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 60%;
+    margin: auto;
+}
+
+/*Top*/
+body > header {
+    height: 450px;
+    margin: 2% auto 0;
+}
+section:first-child {
+    height: 20%;
+    background-color: #E579E6;
+}
+section:last-child {
+    height: 69%;
+    margin: 2.5% auto 0;
+    background-color: #E1D67A;
+}
+/*--Top*/
+
+/*Middle*/
+main {
+    height: 400px;
+    background-color: #0186FF;
+}
+main > header, main > aside, main > section{
+    background-color: #ABCFE7;
+}
+main > header {
+    height: 15%;
+}
+main > section, aside {
+    height: 78%;
+    float: left;
+}
+aside {
+    width: 15%;
+    margin-top: 2%;
+}
+main > section {
+    width: 66%;
+    margin: 2%;
+}
+/*--Middle*/
+
+/*Bottom*/
+footer {
+    height: 50px;
+    margin-top: 1%;
+    background-color: #8801FE;
+}
+/*--Bottom*/
