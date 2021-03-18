@@ -36,7 +36,7 @@ main > header {
     height: 15%;
 }
 main > section, aside {
-    height: 78%;
+    height: 76%;
     float: left;
 }
 aside {
@@ -52,7 +52,7 @@ main > section {
 /*Bottom*/
 footer {
     height: 50px;
-    margin-top: 1%;
+    margin-top: 0.5%;
     background-color: #8801FE;
 }
 /*--Bottom*/
